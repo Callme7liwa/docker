@@ -33,6 +33,7 @@ services:
 
 networks:
   wp_network:
+    name: wp_network  # Force le nom sans préfixe
     driver: bridge
 
 volumes:
